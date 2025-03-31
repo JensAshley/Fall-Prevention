@@ -31,7 +31,7 @@ const App = () => {
 
             {/* Route Configuration */}
             <Routes>
-              <Route path="#/" element={<Login login={setIsLoggedIn} />} />
+              <Route path="/" element={<Login login={setIsLoggedIn} />} />
               <Route path="#/home" element={<Home />} />
               <Route path="#/dashboard" element={<Dashboard />} />
               <Route path="#/adduser" element={<AddUser />} />
