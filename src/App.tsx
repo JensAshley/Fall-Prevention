@@ -31,19 +31,19 @@ const App = () => {
 
             {/* Route Configuration */}
             <Routes>
-              <Route path="/" element={<Login login={setIsLoggedIn} />} />
-              <Route path="/home" element={<Home />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/adduser" element={<AddUser />} />
-              <Route path="/account" element={<AdminAccount />} />
-              <Route path="/newadmin" element={<NewAdmin />} />
-              <Route path="/forgotPass" element={<ForgetPassword />} />
-              <Route path="/forgotEmail" element={<ForgetEmail />} />
-              <Route path="/newpatient" element={<NewPatient />} />
-              <Route path="/settings" element={<Settings />} />
-              <Route path="/progressGraph" element={<BathroomLightsChart />} />
+              <Route path="#/" element={<Login login={setIsLoggedIn} />} />
+              <Route path="#/home" element={<Home />} />
+              <Route path="#/dashboard" element={<Dashboard />} />
+              <Route path="#/adduser" element={<AddUser />} />
+              <Route path="#/account" element={<AdminAccount />} />
+              <Route path="#/newadmin" element={<NewAdmin />} />
+              <Route path="#/forgotPass" element={<ForgetPassword />} />
+              <Route path="#/forgotEmail" element={<ForgetEmail />} />
+              <Route path="#/newpatient" element={<NewPatient />} />
+              <Route path="#/settings" element={<Settings />} />
+              <Route path="#/progressGraph" element={<BathroomLightsChart />} />
               <Route
-                path="/changeuserinformation"
+                path="#/changeuserinformation"
                 element={<ChangeUserInformation />}
               />
             </Routes>
