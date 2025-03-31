@@ -1,0 +1,51 @@
+/* src/components/StickyNote.css */
+.sticky-note {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #ffeb3b;
+    border: 2px solid #fbc02d;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    cursor: move;
+    font-family: Arial, sans-serif;
+    z-index: 999;
+  }
+  
+  .sticky-note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .sticky-note textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    resize: none;
+  }
+  
+  .sticky-note p {
+    font-size: 14px;
+    color: #333;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .save-button, .edit-button {
+    background-color: #fbc02d;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover, .edit-button:hover {
+    background-color: #f57f17;
+  }
+  
