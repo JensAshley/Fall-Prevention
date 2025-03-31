@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import store, { persistor } from "./app/store";
 import "./App.css";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
 import NewAdmin from "./pages/NewAdmin";
 import Home from "./pages/Home";
@@ -24,7 +24,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <Router>
+        <HashRouter>
           <div>
             {/* Pass isLoggedIn state to Navbar */}
             {/* <Navbar loggedIn={isLoggedIn} /> */}
@@ -48,7 +48,7 @@ const App = () => {
               />
             </Routes>
           </div>
-        </Router>
+        </HashRouter>
       </PersistGate>
     </Provider>
   );
