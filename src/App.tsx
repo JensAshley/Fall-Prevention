@@ -32,7 +32,7 @@ const App = () => {
             {/* Route Configuration */}
             <Routes>
               <Route path="/" element={<Login login={setIsLoggedIn} />} />
-              <Route path="Fall-Prevention/home" element={<Home />} />
+              <Route path="/home" element={<Home />} />
               <Route path="Fall-Prevention/dashboard" element={<Dashboard />} />
               <Route path="Fall-Prevention/adduser" element={<AddUser />} />
               <Route path="Fall-Prevention/account" element={<AdminAccount />} />
@@ -43,7 +43,7 @@ const App = () => {
               <Route path="Fall-Prevention/settings" element={<Settings />} />
               <Route path="Fall-Prevention/progressGraph" element={<BathroomLightsChart />} />
               <Route
-                path="Fall-Prevention/changeuserinformation"
+                path="/changeuserinformation"
                 element={<ChangeUserInformation />}
               />
             </Routes>
