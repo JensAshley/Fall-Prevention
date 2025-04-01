@@ -33,15 +33,15 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Login login={setIsLoggedIn} />} />
               <Route path="/home" element={<Home />} />
-              <Route path="Fall-Prevention/dashboard" element={<Dashboard />} />
-              <Route path="Fall-Prevention/adduser" element={<AddUser />} />
-              <Route path="Fall-Prevention/account" element={<AdminAccount />} />
-              <Route path="Fall-Prevention/newadmin" element={<NewAdmin />} />
-              <Route path="Fall-Prevention/forgotPass" element={<ForgetPassword />} />
-              <Route path="Fall-Prevention/forgotEmail" element={<ForgetEmail />} />
-              <Route path="Fall-Prevention/newpatient" element={<NewPatient />} />
-              <Route path="Fall-Prevention/settings" element={<Settings />} />
-              <Route path="Fall-Prevention/progressGraph" element={<BathroomLightsChart />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/adduser" element={<AddUser />} />
+              <Route path="/account" element={<AdminAccount />} />
+              <Route path="/newadmin" element={<NewAdmin />} />
+              <Route path="/forgotPass" element={<ForgetPassword />} />
+              <Route path="/forgotEmail" element={<ForgetEmail />} />
+              <Route path="/newpatient" element={<NewPatient />} />
+              <Route path="/settings" element={<Settings />} />
+              <Route path="/progressGraph" element={<BathroomLightsChart />} />
               <Route
                 path="/changeuserinformation"
                 element={<ChangeUserInformation />}
