@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Fall-Prevention/static/css/main.83fdec5f.css",
-    "main.js": "/Fall-Prevention/static/js/main.6168f0e2.js",
+    "main.js": "/Fall-Prevention/static/js/main.79d6c47e.js",
     "static/js/453.99dcf01f.chunk.js": "/Fall-Prevention/static/js/453.99dcf01f.chunk.js",
     "index.html": "/Fall-Prevention/index.html",
     "main.83fdec5f.css.map": "/Fall-Prevention/static/css/main.83fdec5f.css.map",
-    "main.6168f0e2.js.map": "/Fall-Prevention/static/js/main.6168f0e2.js.map",
+    "main.79d6c47e.js.map": "/Fall-Prevention/static/js/main.79d6c47e.js.map",
     "453.99dcf01f.chunk.js.map": "/Fall-Prevention/static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83fdec5f.css",
-    "static/js/main.6168f0e2.js"
+    "static/js/main.79d6c47e.js"
   ]
 }
